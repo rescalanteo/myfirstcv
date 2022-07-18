@@ -1,0 +1,213 @@
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .left_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255);
+}
+
+.profileText .image-profile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profileText h2 span{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.contactInfo{
+    padding-top: 10px;
+}
+
+.title{
+    color: #fff;
+}
+
+.contactInfo ul{
+    position: relative;
+    padding-inline-start: 0px;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon{
+    color: #03a9f4;
+    display: inline-block;
+    width: 30px;
+}
+
+.contactInfo ul li .text{
+    color: #fff;
+}
+
+
+.education{
+    margin-top: 40px;
+}
+
+.education ul{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.education li{
+    margin-bottom: 30px;
+}
+
+.education h5{
+    color: #fff;
+    margin-top: -10px;
+}
+
+.education h5:nth-child(1){
+    color: #03a9f4;
+    font-weight: 800;
+}
+
+.education h4{
+    color: #fff;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.experience ul li{
+    position: relative;
+    color: #fff;
+    display: block;
+    
+}
+
+.languages .text{
+    color: #081921;
+}
+
+
+.languages ul{
+    position: relative;
+    padding-inline-start: 0px;
+}
+
+.languages ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.languages .percent{
+    position: relative;
+    width: 200%;
+    height: 8px;
+    background: #bbcdd4;
+    display: block;
+    margin-top: 5px;
+}
+
+.languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;  
+}
+
+.box h5{
+    line-height: 10%;
+}
+
+.box h4{
+    margin-block: 5px;
+}
+
+.title2{
+    color: #003147;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company{
+    min-width: 160px;
+}
+
+.about .box .year_company h5{
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.container2 .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    gap: 130px;
+
+}
+
+.container2 .box ul{
+list-style: none;
+padding: 0px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
